@@ -3,7 +3,6 @@ from datetime import timedelta
 # [START import_module]
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG
-
 # Operators; we need this to operate!
 from airflow.providers.cncf.kubernetes.operators.spark_kubernetes import SparkKubernetesOperator
 from airflow.providers.cncf.kubernetes.sensors.spark_kubernetes import SparkKubernetesSensor
