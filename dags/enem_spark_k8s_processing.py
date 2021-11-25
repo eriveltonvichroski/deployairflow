@@ -20,8 +20,6 @@ def trigger_crawler_inscricao_func():
 def trigger_crawler_final_func():
         glue.start_crawler(Name='enem_uf_final_crawler')
 
-
-
 with DAG(
     'enem_batch_spark_k8s',
     default_args={
